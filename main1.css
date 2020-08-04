@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    color: #fff;
+    background-image: url("book1.jpg");
+    background-repeat: no-repeat repeat;
+    background-size: 100%;
+    background-color: #303F9F;
+    display:flex;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align:center;
+}
+form input,
+form label  {
+    color:#f54242;
+    text-align: left;
+}
+
+.form-control {
+    height: 5rem;
+    font-size: 2rem;
+}
+
+form label {
+    font-size: 2rem;
+    margin: 1em 0;
+    display:block;
+    text-align: left;
+    font-family: bold;
+}
+
+form input[type="submit"],
+.error-btn {
+    background-color: #FFC107;
+    display:block;
+    margin: 4rem 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+form input[type="submit"]:hover,
+.error-btn {
+    background-color: #BADA55;
+}
+
+footer {
+    font-size: 1rem;
+}
+
+.container {
+    /*width:50%;*/
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    align-self:center;
+    padding:3rem;
+    margin-top: 3rem;
+}
+
+.result {
+  color: #303f9f;
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius:2rem;
+  text-align:center;
+}
+
+h1 {
+    font-family: bold;
+    font-size: 6rem;
+    text-align:center;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+  font-family: bold;
+  font-size: 6rem;
+  color : #f54242;
+}
+
+.error {
+    color: #FFC107;
+}
+.table tbody {
+    background-color: rgba(251, 251, 255, 0.6);
+}
